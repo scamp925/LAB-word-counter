@@ -20,6 +20,12 @@ const wordCounter = (value) => {
 const toggleMode = (btnText) => {
   const newColor = document.body;
   newColor.classList.toggle("new-color");
+  const lightMode = document.querySelector("#bg-switch");
+  if (lightMode.textContent === "Dark Mode") {
+    lightMode.textContent = "Light Mode";
+  } else {
+    lightMode.textContent = "Dark Mode";
+  }
 }
 
 // ************************************************ //
