@@ -1,5 +1,5 @@
 body {
-  background-color: orchid;
+  background-color:orchid;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
   width: 90%;
@@ -28,6 +28,8 @@ textarea {
 
 button {
   background-color: green;
+  border: none;
+  border-radius: 5px;
   color: white;
   font-size: 1.5em;
   padding: 5px;
